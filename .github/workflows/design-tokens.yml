@@ -2,6 +2,8 @@ name: Design Tokens Workflow
 
 on:
   push:
+    branches:
+      - design
     paths:
       - '.style-dictionary/**/tokens.json'
 
