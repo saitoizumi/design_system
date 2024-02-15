@@ -8,12 +8,18 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "scss": "sass src/scss:public/css",
+    "sass-watch": "sass --watch src/scss:public/css",
+    "chromatic": "npx chromatic --project-token=chpt_6256fdd0ae47f6c"
   },
   "dependencies": {
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sass": "^1.70.0",
+    "style-dictionary": "^3.9.2",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.13",
@@ -27,12 +33,16 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "browser-sync": "^3.0.2",
+    "chromatic": "^10.9.2",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.6.13",
-    "typescript": "^5"
+    "typescript": "^5",
+    "watch": "^1.0.2"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.1.0"
 }
