@@ -11,7 +11,8 @@
     "build-storybook": "storybook build",
     "scss": "sass src/scss:public/css",
     "sass-watch": "sass --watch src/scss:public/css",
-    "chromatic": "npx chromatic --project-token=chpt_6256fdd0ae47f6c"
+    "chromatic": "npx chromatic --project-token=chpt_6256fdd0ae47f6c",
+    "build-style-dictionary": "style-dictionary build --config .style-dictionary/config.json"
   },
   "dependencies": {
     "next": "14.1.0",
