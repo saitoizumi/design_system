@@ -19,7 +19,8 @@
     "react-dom": "^18",
     "sass": "^1.70.0",
     "style-dictionary": "^3.9.2",
-    "styled-components": "^6.1.8"
+    "styled-components": "^6.1.8",
+    "token-transformer": "^0.0.33"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.13",

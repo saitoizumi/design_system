@@ -10586,6 +10586,7 @@ __metadata:
     storybook: "npm:^7.6.13"
     style-dictionary: "npm:^3.9.2"
     styled-components: "npm:^6.1.8"
+    token-transformer: "npm:^0.0.33"
     typescript: "npm:^5"
     watch: "npm:^1.0.2"
   languageName: unknown
@@ -13783,6 +13784,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"token-transformer@npm:^0.0.33":
+  version: 0.0.33
+  resolution: "token-transformer@npm:0.0.33"
+  dependencies:
+    yargs: "npm:^17.6.2"
+  bin:
+    token-transformer: cli.js
+  checksum: 10c0/fd71ddb18d2451b0e3653f0f20a12c5784ec92a465b73145e618ac55963cb52becedee3c184d06b312acb9eb9d9e26df46b1eea1795d9adaa438e5b81c46684f
+  languageName: node
+  linkType: hard
+
 "tr46@npm:~0.0.3":
   version: 0.0.3
   resolution: "tr46@npm:0.0.3"
@@ -14738,7 +14750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.3.1":
+"yargs@npm:^17.3.1, yargs@npm:^17.6.2":
   version: 17.7.2
   resolution: "yargs@npm:17.7.2"
   dependencies:
