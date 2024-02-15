@@ -12,7 +12,7 @@
     "scss": "sass src/scss:public/css",
     "sass-watch": "sass --watch src/scss:public/css",
     "chromatic": "npx chromatic --project-token=chpt_6256fdd0ae47f6c",
-    "build-style-dictionary": "style-dictionary build --config .style-dictionary/config.json"
+    "build-style-dictionary": "style-dictionary build --config .style-dictionary/config.cjs"
   },
   "dependencies": {
     "next": "14.1.0",
