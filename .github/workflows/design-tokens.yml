@@ -1,0 +1,36 @@
+name: Design Tokens Workflow
+
+on:
+  push:
+    paths:
+      - '.style-dictionary/**/tokens.json'
+
+jobs:
+  process-design-tokens:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: yarn install
+
+    - name: Transform tokens
+      run: ./node_modules/.bin/token-transformer .style-dictionary/tokens/tokens.json .style-dictionary/tokens/converted_tokens.json
+
+    - name: Build style dictionary
+      run: yarn build-style-dictionary
+
+    - name: Commit and Push Generated Files
+      uses: EndBug/add-and-commit@v7
+      with:
+        message: 'Update generated style files'
+        add: '.style-dictionary/dist/*'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
