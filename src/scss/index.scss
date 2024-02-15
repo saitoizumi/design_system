@@ -1,0 +1,8 @@
+@use '../../build/scss/variables.scss';
+
+.basic-button {
+    background-color: variables.$global-primary;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: variables.$global-secondary;
+}
