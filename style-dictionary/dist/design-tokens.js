@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 16 Feb 2024 05:08:31 GMT
+ * Generated on Fri, 16 Feb 2024 05:26:45 GMT
  */
 
 export const ColorCommonBrandHanzoRed = "#ff5a5f";

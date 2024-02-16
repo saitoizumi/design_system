@@ -4,20 +4,24 @@ const { transformBoxShadow } = require("./transforms/box-shadow.js");
 const { transformTypography } = require("./transforms/typography.js");
 const { transformFontWeight } = require("./transforms/font-weight.js");
 
+const isBoxShadow = (category) => category === "boxShadow";
+const isTypography = (category) => category === "typograpy";
+const isFontWeght = (category) => category === "fontWeight";
+
 StyleDictionary.registerTransform({
   name: "time/seconds",
   type: "value",
   matcher: (token) => {
     return (
-      token.attributes.category === "boxShadow" ||
-      token.attributes.category === "typograpy" ||
-      token.attributes.category === "fontWeight"
+      isBoxShadow(token.attributes.category) ||
+      isTypography(token.attributes.category) ||
+      isFontWeght(token.attributes.category)
     );
   },
   transformer: (token) => {
-    if (token.type === "boxShadow") return transformBoxShadow(token);
-    if (token.type === "typography") return transformTypography(token);
-    if (token.type === "fontWeights") return transformFontWeight(token.value);
+    if (isBoxShadow(token.attributes.category)) return transformBoxShadow(token);
+    if (isTypography(token.attributes.category)) return transformTypography(token);
+    if (isFontWeght(token.attributes.category)) return transformFontWeight(token.value);
   },
 });
 
