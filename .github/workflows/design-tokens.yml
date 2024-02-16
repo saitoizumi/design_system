@@ -3,7 +3,7 @@ name: Design Tokens Workflow
 on:
   push:
     branches:
-      - design
+      - design-update
     paths:
       - 'style-dictionary/**/tokens.json'
 
