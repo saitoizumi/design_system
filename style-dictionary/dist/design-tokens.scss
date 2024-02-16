@@ -1,14 +1,14 @@
 
 // Do not edit directly
-// Generated on Fri, 16 Feb 2024 05:43:09 GMT
+// Generated on Fri, 16 Feb 2024 07:06:37 GMT
 
 // -------------------
 // $typography
 // -------------------
-// $typography: (32px, 125%, 600);
-// font-size: nth($typography, 1);  // 32px
-// line-height: nth($typography, 2);  // 125%
-// font-weight: nth($typography, 3);  // 600
+// $typography: (font-size: 32px, line-height: 125%, font-weight: 600);
+// font-size: map-get($typograpy, 'font-size');  // 32px
+// line-height: map-get($typograpy, 'line-height');  // 125%
+// font-weight: map-get($typograpy, 'font-weight');  // 600
 
 $color-common-brand-hanzo-red: #ff5a5f;
 $color-common-brand-hanzo-green: #008c85;
@@ -453,7 +453,7 @@ $color-component-notificationbar-button-border-wasabi: #007c74;
 $color-component-notificationbar-button-border-neutral: #d8d8d8;
 $color-component-notificationbar-label-warning: #a84520;
 $color-component-notificationbar-label-information: #2291fa;
-$color-component-notificationbar-label-caution: #cddc39;
+$color-component-notificationbar-label-caution: #c9232b;
 $color-component-notificationbar-label-wasabi: #025047;
 $color-component-notificationbar-label-neutral: #414141;
 $color-component-notificationbar-label-sub-text: #2371d8;
@@ -563,7 +563,7 @@ $color-tarako-500: #ff4846;
 $color-tarako-600: #f74046;
 $color-tarako-700: #e5363f;
 $color-tarako-800: #d82f38;
-$color-tarako-900: #cddc39;
+$color-tarako-900: #c9232b;
 $color-sora-50: #eaf5fe;
 $color-sora-100: #bbddfe;
 $color-sora-200: #8fc8fd;
@@ -678,39 +678,39 @@ $box-shadow-elevation12: 0px 7px 8px -4px #00000033, 0px 12px 17px 2px #00000024
 $box-shadow-elevation16: 0px 8px 10px -5px #00000033, 0px 16px 24px 2px #00000024, 0px 6px 30px 5px #0000001F;
 $box-shadow-elevation24: 0px 11px 15px -7px #00000033, 0px 24px 38px 3px #00000024, 0px 9px 46px 8px #0000001F;
 $box-shadow-elevation0: none;
-$typograpy-headline-pc-tab-xxl: (32px, 125%, 600);
-$typograpy-headline-pc-tab-xl: (28px, 125%, 600);
-$typograpy-headline-pc-tab-lg: (24px, 150%, 600);
-$typograpy-headline-pc-tab-md: (20px, 150%, 600);
-$typograpy-headline-pc-tab-sm: (20px, 150%, 300);
-$typograpy-headline-sp-xxl: (24px, 125%, 600);
-$typograpy-headline-sp-xl: (22px, 150%, 600);
-$typograpy-headline-sp-lg: (20px, 150%, 600);
-$typograpy-headline-sp-md: (18px, 150%, 600);
-$typograpy-headline-sp-sm: (18px, 150%, 300);
-$typograpy-label-md: (16px, 150%, 600);
-$typograpy-label-sm: (14px, 150%, 600);
-$typograpy-label-xs: (12px, 150%, 300);
-$typograpy-body-md: (16px, 150%, 300);
-$typograpy-body-sm: (14px, 150%, 300);
-$typograpy-caption-md: (12px, 150%, 300);
-$typograpy-caption-sm: (10px, 150%, 300);
-$typograpy-component-button-label-lg: (16px, 100%, 600);
-$typograpy-component-button-label-md: (14px, 100%, 600);
-$typograpy-component-button-label-sm: (14px, 100%, 300);
-$typograpy-component-button-label-xs: (12px, 100%, 600);
-$typograpy-component-tag-label-lg: (14px, 100%, 600);
-$typograpy-component-tag-label-md: (12px, 100%, 600);
-$typograpy-component-tag-label-sm: (11px, 100%, 600);
-$typograpy-component-tag-label-xs: (10px, 100%, 600);
-$typograpy-component-tag-label-xxs: (8px, normal, 600);
-$typograpy-component-chips-label-md: (12px, 100%, 300);
-$typograpy-component-checkbox-label-md: (16px, 125%, 300);
-$typograpy-component-radio-button-label-md: (16px, 125%, 300);
-$typograpy-component-text-link-md: (14px, 100%, 600);
-$typograpy-component-text-link-sm: (14px, 100%, 300);
-$typograpy-component-combobox-label-lg: (18px, 150%, 300);
-$typograpy-component-combobox-label-md: (16px, 150%, 300);
+$typograpy-headline-pc-tab-xxl: (font-size: 32px, line-height: 125%, font-weight: 600);
+$typograpy-headline-pc-tab-xl: (font-size: 28px, line-height: 125%, font-weight: 600);
+$typograpy-headline-pc-tab-lg: (font-size: 24px, line-height: 150%, font-weight: 600);
+$typograpy-headline-pc-tab-md: (font-size: 20px, line-height: 150%, font-weight: 600);
+$typograpy-headline-pc-tab-sm: (font-size: 20px, line-height: 150%, font-weight: 300);
+$typograpy-headline-sp-xxl: (font-size: 24px, line-height: 125%, font-weight: 600);
+$typograpy-headline-sp-xl: (font-size: 22px, line-height: 150%, font-weight: 600);
+$typograpy-headline-sp-lg: (font-size: 20px, line-height: 150%, font-weight: 600);
+$typograpy-headline-sp-md: (font-size: 18px, line-height: 150%, font-weight: 600);
+$typograpy-headline-sp-sm: (font-size: 18px, line-height: 150%, font-weight: 300);
+$typograpy-label-md: (font-size: 16px, line-height: 150%, font-weight: 600);
+$typograpy-label-sm: (font-size: 14px, line-height: 150%, font-weight: 600);
+$typograpy-label-xs: (font-size: 12px, line-height: 150%, font-weight: 300);
+$typograpy-body-md: (font-size: 16px, line-height: 150%, font-weight: 300);
+$typograpy-body-sm: (font-size: 14px, line-height: 150%, font-weight: 300);
+$typograpy-caption-md: (font-size: 12px, line-height: 150%, font-weight: 300);
+$typograpy-caption-sm: (font-size: 10px, line-height: 150%, font-weight: 300);
+$typograpy-component-button-label-lg: (font-size: 16px, line-height: 100%, font-weight: 600);
+$typograpy-component-button-label-md: (font-size: 14px, line-height: 100%, font-weight: 600);
+$typograpy-component-button-label-sm: (font-size: 14px, line-height: 100%, font-weight: 300);
+$typograpy-component-button-label-xs: (font-size: 12px, line-height: 100%, font-weight: 600);
+$typograpy-component-tag-label-lg: (font-size: 14px, line-height: 100%, font-weight: 600);
+$typograpy-component-tag-label-md: (font-size: 12px, line-height: 100%, font-weight: 600);
+$typograpy-component-tag-label-sm: (font-size: 11px, line-height: 100%, font-weight: 600);
+$typograpy-component-tag-label-xs: (font-size: 10px, line-height: 100%, font-weight: 600);
+$typograpy-component-tag-label-xxs: (font-size: 8px, line-height: normal, font-weight: 600);
+$typograpy-component-chips-label-md: (font-size: 12px, line-height: 100%, font-weight: 300);
+$typograpy-component-checkbox-label-md: (font-size: 16px, line-height: 125%, font-weight: 300);
+$typograpy-component-radio-button-label-md: (font-size: 16px, line-height: 125%, font-weight: 300);
+$typograpy-component-text-link-md: (font-size: 14px, line-height: 100%, font-weight: 600);
+$typograpy-component-text-link-sm: (font-size: 14px, line-height: 100%, font-weight: 300);
+$typograpy-component-combobox-label-lg: (font-size: 18px, line-height: 150%, font-weight: 300);
+$typograpy-component-combobox-label-md: (font-size: 16px, line-height: 150%, font-weight: 300);
 $font-family-default: Hiragino Kaku Gothic Pro;
 $font-size-8: 8;
 $font-size-10: 10;
@@ -736,7 +736,6 @@ $spacing-48: 48;
 $spacing-56: 56;
 $spacing-64: 64;
 $spacing-72: 72;
-$spacing-80: 80;
 $token-set-order-0: primitive;
 $token-set-order-1: semantic;
 $light: [object Object];

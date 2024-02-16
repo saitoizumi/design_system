@@ -5,10 +5,10 @@ const customHeader = (defaultMessage) => {
     "-------------------",
     `$typography`,
     "-------------------",
-    `$typography: (32px, 125%, 600);`,
-    `font-size: nth($typography, 1);  // 32px`,
-    `line-height: nth($typography, 2);  // 125%`,
-    `font-weight: nth($typography, 3);  // 600`,
+    `$typography: (font-size: 32px, line-height: 125%, font-weight: 600);`,
+    `font-size: map-get($typograpy, 'font-size');  // 32px`,
+    `line-height: map-get($typograpy, 'line-height');  // 125%`,
+    `font-weight: map-get($typograpy, 'font-weight');  // 600`,
   ];
 };
 

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 16 Feb 2024 05:43:09 GMT
+ * Generated on Fri, 16 Feb 2024 07:06:37 GMT
  */
 
 export const ColorCommonBrandHanzoRed = "#ff5a5f";
@@ -446,7 +446,7 @@ export const ColorComponentNotificationbarButtonBorderWasabi = "#007c74";
 export const ColorComponentNotificationbarButtonBorderNeutral = "#d8d8d8";
 export const ColorComponentNotificationbarLabelWarning = "#a84520";
 export const ColorComponentNotificationbarLabelInformation = "#2291fa";
-export const ColorComponentNotificationbarLabelCaution = "#cddc39";
+export const ColorComponentNotificationbarLabelCaution = "#c9232b";
 export const ColorComponentNotificationbarLabelWasabi = "#025047";
 export const ColorComponentNotificationbarLabelNeutral = "#414141";
 export const ColorComponentNotificationbarLabelSubText = "#2371d8";
@@ -556,7 +556,7 @@ export const ColorTarako500 = "#ff4846";
 export const ColorTarako600 = "#f74046";
 export const ColorTarako700 = "#e5363f";
 export const ColorTarako800 = "#d82f38";
-export const ColorTarako900 = "#cddc39";
+export const ColorTarako900 = "#c9232b";
 export const ColorSora50 = "#eaf5fe";
 export const ColorSora100 = "#bbddfe";
 export const ColorSora200 = "#8fc8fd";
@@ -729,7 +729,6 @@ export const Spacing48 = 48;
 export const Spacing56 = 56;
 export const Spacing64 = 64;
 export const Spacing72 = 72;
-export const Spacing80 = 80;
 export const TokenSetOrder0 = "primitive";
 export const TokenSetOrder1 = "semantic";
 export const Light = "[object Object]";
