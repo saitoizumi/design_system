@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../src/scss/index.scss","../../build/scss/_variables.scss"],"names":[],"mappings":"AAEA;EACI,kBCCa;EDAb;EACA;EACA,OCDe","file":"index.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/scss/index.scss","../../style-dictionary/dist/design-tokens.scss"],"names":[],"mappings":"AAIA;EACI,YCmpBc;EDlpBd;EACA;EACA,OCyhBa;EDxhBb;EACA;EACA","file":"index.css"}
