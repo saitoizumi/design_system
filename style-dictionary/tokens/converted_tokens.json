@@ -2191,7 +2191,7 @@
             "type": "color"
           },
           "caution": {
-            "value": "#c9232b",
+            "value": "#cddc39",
             "type": "color"
           },
           "wasabi": {
@@ -2733,7 +2733,7 @@
         "type": "color"
       },
       "900": {
-        "value": "#c9232b",
+        "value": "#cddc39",
         "type": "color"
       }
     },
@@ -4064,6 +4064,10 @@
     },
     "72": {
       "value": 72,
+      "type": "spacing"
+    },
+    "80": {
+      "value": 80,
       "type": "spacing"
     }
   },

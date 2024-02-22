@@ -1,0 +1,3732 @@
+{
+  "color": {
+    "common": {
+      "brand": {
+        "hanzoRed": {
+          "value": "{color.tarako.400}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "hanzoGreen": {
+          "value": "{color.wasabi.600}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "text": {
+        "highEmphasis": {
+          "value": "{color.sumi.800}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "mediumEmphasis": {
+          "value": "{color.sumi.600}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "lowEmphasis": {
+          "value": "{color.sumi.400}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "highEmphasisInverse": {
+          "value": "{color.sio.1000}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "accentPrimary": {
+          "value": "{color.tarako.400}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "accentSecondary": {
+          "value": "{color.wasabi.700}",
+          "type": "color",
+          "lowEmphasis": {
+            "value": "{color.wasabi.400}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.wasabi.200}",
+            "type": "color"
+          },
+          "failedToResolve": true
+        },
+        "caution": {
+          "value": "{color.tarako.800}",
+          "type": "color",
+          "description": "VaridationText,errorなど",
+          "failedToResolve": true
+        },
+        "warning": {
+          "value": "{color.mikan.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "disabled": {
+          "value": "{color.sumi.300}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "information": {
+          "value": "{color.sora.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "placeholder": {
+          "value": "{color.sumi.500}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "surface": {
+        "primary": {
+          "value": "{color.sio.1000}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "secondary": {
+          "value": "{color.sumi.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "noImage": {
+          "value": "{color.sumi.200}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "information": {
+          "value": "{color.sora.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "accentSecondary": {
+          "value": "{color.wasabi.700}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "border": {
+        "highEmphasis": {
+          "value": "{color.sumi.700}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "mediumEmphasis": {
+          "value": "{color.sumi.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "lowEmphasis": {
+          "value": "{color.sumi.300}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "accentPrimary": {
+          "value": "{color.tarako.400}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "accentSecondary": {
+          "value": "{color.wasabi.700}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "caution": {
+          "value": "{color.tarako.800}",
+          "type": "color",
+          "description": "VaridationText,errorなど",
+          "failedToResolve": true
+        },
+        "warning": {
+          "value": "{color.mikan.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "information": {
+          "value": "{color.sora.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "white": {
+          "value": "{color.sio.1000}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "background": {
+        "base": {
+          "value": "{color.sio.1000}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "icon": {
+        "highEmphasis": {
+          "value": "{color.sumi.700}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "mediumEmphasis": {
+          "value": "{color.sumi.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "lowEmphasis": {
+          "value": "{color.sumi.300}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "white": {
+          "value": "{color.sio.1000}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "black": {
+          "value": "{color.goma.1000}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "accentPrimary": {
+          "value": "{color.tarako.400}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "accentSecondary": {
+          "value": "{color.wasabi.700}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "caution": {
+          "value": "{color.tarako.800}",
+          "type": "color",
+          "description": "VaridationText,errorなど",
+          "failedToResolve": true
+        },
+        "warning": {
+          "value": "{color.mikan.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "information": {
+          "value": "{color.sora.500}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "avatar": {
+        "default": {
+          "value": "{color.sumi.200}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "hover": {
+        "default": {
+          "value": "{color.sumi.100}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "modal": {
+        "default": {
+          "value": "{color.goma.1000}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      }
+    },
+    "component": {
+      "ingredient": {
+        "image": {
+          "noImage": {
+            "value": "{color.sumi.200}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "default": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "bottomAppBar": {
+        "label": {
+          "default": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "selected": {
+            "value": "{color.tarako.400}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "selected": {
+            "value": "{color.tarako.400}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "sideMenu": {
+        "label": {
+          "enabled": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "{color.sumi.50}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "item": {
+            "hovered": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.sumi.300}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "icon": {
+          "item": {
+            "enabled": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        }
+      },
+      "tag": {
+        "border": {
+          "lowEmphasis": {
+            "value": "{color.sumi.400}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "information": {
+            "value": "{color.sora.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "worning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "fixtures": {
+            "value": "{color.sora.200}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "surface": {
+          "lowEmphasis": {
+            "value": "{color.sumi.400}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "highEmphasis": {
+            "value": "{color.sumi.700}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "information": {
+            "value": "{color.sora.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "warning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "fixtures": {
+            "value": "{color.sora.200}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "event": {
+            "value": "{color.wasabi.700}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "automaticOrdering": {
+            "value": "{color.okaka.300}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "manualOrdering": {
+            "value": "{color.wasabi.100}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "icon": {
+          "information": {
+            "value": "{color.sora.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "highEmphasis": {
+            "value": "{color.sumi.600}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "worning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "fixtures": {
+            "value": "{color.sora.200}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "chipsDeletable": {
+            "value": "{color.sumi.400}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "highEmphasisInverse": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "worning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "fixtures": {
+            "value": "{color.sora.200}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "highEmphasis": {
+            "value": "{color.sumi.700}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "mediumEmphasis": {
+            "value": "{color.sumi.600}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "information": {
+            "value": "{color.sora.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "card": {
+        "merchandiseCard": {
+          "tag": {
+            "enabled": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "selected": {
+              "value": "{color.wasabi.500}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "surface": {
+            "enabled": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.200}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "selected": {
+              "value": "{color.wasabi.500}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "unselected": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "image": {
+            "enabled": {
+              "value": "{color.sumi.200}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.50}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "label": {
+            "default": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "menuCard": {
+          "surface": {
+            "base": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "enabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "label": {
+            "default": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "orderingRuleCard": {
+          "surface": {
+            "base": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "label": {
+            "enabled": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "enabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.200}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "SalesContinuousCard": {
+          "label": {
+            "mediumEmphasis": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "highEmphasis": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "maxTemp": {
+              "value": "{color.tarako.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "minTemp": {
+              "value": "{color.sora.900}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "slipCard": {
+          "border": {
+            "default": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "label": {
+            "default": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "date": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "surface": {
+              "robot": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "surface": {
+            "base": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        }
+      },
+      "searchBox": {
+        "icon": {
+          "search": {
+            "enabled": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "close": {
+            "enabled": {
+              "value": "{color.sumi.500}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "{color.sumi.100}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "text": {
+          "placeholder": {
+            "value": "{color.sumi.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "input": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "control": {
+        "toggleSwitch": {
+          "surface": {
+            "enabledFalse": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hoverdFalse": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabledFalse": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "enabledTure": {
+              "value": "{color.wasabi.200}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hoverdTure": {
+              "value": "{color.wasabi.200}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabledTrue": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "toggle": {
+            "enabledFalse": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hoveredFalse": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabledFalse": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "enabledTure": {
+              "value": "{color.wasabi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hoveredTure": {
+              "value": "{color.wasabi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabledTrue": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "hover": {
+            "hoveredFalse": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hoveredTrue": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "combobox": {
+          "surface": {
+            "default": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "contentItem": {
+              "default": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "selected": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.200}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "hovered": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "label": {
+            "default": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "caution": {
+              "value": "{color.tarako.800}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.wasabi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "caution": {
+              "value": "{color.tarako.800}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "countField": {
+          "label": {
+            "default": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "dropdown": {
+          "label": {
+            "enabled": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "opened": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "surface": {
+            "hovered": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "icon": {
+            "enabled": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "opened": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "enabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "opened": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.200}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "subLabel": {
+            "enabled": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "opened": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "checkbox": {
+          "unchecked": {
+            "border": {
+              "enabled": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "caution": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "surface": {
+              "disabled": {
+                "value": "{color.sumi.200}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "caution": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "hover": {
+              "hovered": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "checked": {
+            "surface": {
+              "enabled": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.200}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "hover": {
+              "hovered": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "mixed": {
+            "surface": {
+              "enabled": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.200}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "hover": {
+              "hovered": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "radioButton": {
+          "unselected": {
+            "border": {
+              "enabled": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "surface": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.200}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "hover": {
+              "hovered": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "selected": {
+            "hover": {
+              "hovered": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "bottun": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "surface": {
+              "enabled": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.wasabi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.200}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "addButton": {
+          "addItem": {
+            "surface": {
+              "base": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "border": {
+              "default": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "default": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "default": {
+                "value": "{color.sumi.800}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "addCard": {
+            "surface": {
+              "base": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "default": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "default": {
+                "value": "{color.sumi.800}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "addNew": {
+            "surface": {
+              "default": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "default": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "menu": {
+          "surface": {
+            "selected": {
+              "value": "{color.sumi.200}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "base": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "label": {
+            "enabled": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "selected": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "subLabel": {
+            "enabled": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "selected": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        }
+      },
+      "commonButton": {
+        "primary": {
+          "fill": {
+            "surface": {
+              "enabled": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "outline": {
+            "label": {
+              "enabled": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "border": {
+              "enabled": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "secondary": {
+          "fill": {
+            "surface": {
+              "enabled": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.wasabi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "outline": {
+            "label": {
+              "enabled": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.wasabi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "border": {
+              "enabled": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.wasabi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.wasabi.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.wasabi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "neutral": {
+          "fill": {
+            "surface": {
+              "enabled": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "outline": {
+            "border": {
+              "enabled": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.sumi.600}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.600}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.600}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sumi.600}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.600}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.600}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "warning": {
+          "outline": {
+            "border": {
+              "enabled": {
+                "value": "{color.mikan.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.mikan.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.mikan.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.mikan.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.okaka.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.okaka.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.okaka.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.okaka.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.okaka.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.okaka.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.okaka.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.okaka.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "fill": {
+            "surface": {
+              "enabled": {
+                "value": "{color.mikan.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.mikan.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.mikan.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.mikan.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "textTab": {
+          "label": {
+            "enabled": {
+              "value": "{color.sumi.600}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "selected": {
+              "value": "{color.sumi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "surface": {
+            "selected": {
+              "value": "{color.sumi.200}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.sumi.200}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "iconButton": {
+          "primary": {
+            "surface": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.100}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "border": {
+              "enabled": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.200}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sumi.700}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sumi.300}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "solid": {
+            "surface": {
+              "enabled": {
+                "value": "{color.tarako.400}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.200}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.200}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "floatButton": {
+          "surface": {
+            "enabled": {
+              "value": "{color.tarako.400}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.tarako.400}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.tarako.400}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.tarako.100}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "icon": {
+            "enabled": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.goma.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.goma.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "countButton": {
+          "surface": {
+            "enabled": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.wasabi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.wasabi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.100}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "enabled": {
+              "value": "{color.sumi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.wasabi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.wasabi.800}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.200}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "icon": {
+            "enabled": {
+              "value": "{color.wasabi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "hovered": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "focused": {
+              "value": "{color.sio.1000}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "disabled": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "textLink": {
+          "label": {
+            "enabled": {
+              "value": "{color.umi.700}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "enabled": {
+              "value": "{color.umi.700}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "icon": {
+            "enabled": {
+              "value": "{color.umi.700}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "caution": {
+          "outline": {
+            "border": {
+              "enabled": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "fill": {
+            "surface": {
+              "enabled": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.tarako.800}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.tarako.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        },
+        "information": {
+          "outline": {
+            "border": {
+              "enabled": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sora.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sora.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sora.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          },
+          "fill": {
+            "surface": {
+              "enabled": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sora.500}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sora.100}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "label": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            },
+            "icon": {
+              "enabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "hovered": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "focused": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              },
+              "disabled": {
+                "value": "{color.sio.1000}",
+                "type": "color",
+                "failedToResolve": true
+              }
+            }
+          }
+        }
+      },
+      "tooltip": {
+        "surface": {
+          "default": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "notificationbar": {
+        "icon": {
+          "warning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "information": {
+            "value": "{color.sora.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.700}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.700}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "neutral": {
+            "value": "{color.sumi.700}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "close": {
+            "value": "{color.sumi.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "button": {
+          "surface": {
+            "warning": {
+              "value": "{color.mikan.500}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "information": {
+              "value": "{color.sora.500}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "caution": {
+              "value": "{color.tarako.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "wasabi": {
+              "value": "{color.wasabi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "neutral": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          },
+          "border": {
+            "warning": {
+              "value": "{color.mikan.500}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "information": {
+              "value": "{color.sora.500}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "caution": {
+              "value": "{color.tarako.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "wasabi": {
+              "value": "{color.wasabi.700}",
+              "type": "color",
+              "failedToResolve": true
+            },
+            "neutral": {
+              "value": "{color.sumi.300}",
+              "type": "color",
+              "failedToResolve": true
+            }
+          }
+        },
+        "label": {
+          "warning": {
+            "value": "{color.okaka.900}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "information": {
+            "value": "{color.sora.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.900}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "wasabi": {
+            "value": "{color.wasabi.900}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "neutral": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "subText": {
+            "value": "{color.sora.700}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "white": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "surface": {
+          "warning": {
+            "value": "{color.mikan.50}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "information": {
+            "value": "{color.sora.50}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.50}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.50}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "neutral": {
+            "value": "{color.sumi.50}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "dialog": {
+        "surface": {
+          "base": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "default": {
+            "value": "{color.tarako.400}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "delete": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "warning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.tarako.400}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "delete": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "warning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "list": {
+        "border": {
+          "default": {
+            "value": "{color.sumi.300}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "surface": {
+          "hover": {
+            "value": "{color.sumi.100}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "base": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{color.sumi.600}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "mainLabel": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "subLabel": {
+            "value": "{color.sumi.600}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "stockbar": {
+        "indicator": {
+          "base": {
+            "value": "{color.sumi.100}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.600}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "warning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "highEmphasis": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.600}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "warning": {
+            "value": "{color.okaka.900}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "stepper": {
+        "indicator": {
+          "base": {
+            "value": "{color.sumi.300}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "done": {
+            "value": "{color.wasabi.600}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "current": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "highEmphasis": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "stockSimulation": {
+        "indicator": {
+          "base": {
+            "value": "{color.sumi.300}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.600}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "warning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "highEmphasis": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "lowEmphasis": {
+            "value": "{color.sumi.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "progressIndicator": {
+        "indicator": {
+          "highEmphasis": {
+            "value": "{color.wasabi.700}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "mediumEmphasis": {
+            "value": "{color.wasabi.500}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "lowEmphasis": {
+            "value": "{color.wasabi.300}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "linearIndicator": {
+        "indicator": {
+          "base": {
+            "value": "{color.sumi.300}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.600}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "highEmphasis": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "lowEmphasis": {
+            "value": "{color.sumi.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "formSectionTitle": {
+        "border": {
+          "emphasis": {
+            "value": "{color.wasabi.100}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "base": {
+            "value": "{color.sumi.100}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "highEmphasis": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "messageScreen": {
+        "illustration": {
+          "hanzoRed": {
+            "value": "{color.tarako.400}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "tear": {
+            "value": "{color.sora.300}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "headerMenu": {
+        "logo": {
+          "default": {
+            "value": "{color.tarako.400}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{color.sumi.600}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "hovered": {
+            "value": "{color.sumi.100}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "notification": {
+            "value": "{color.tarako.400}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "snackbar": {
+        "surface": {
+          "default": {
+            "value": "{color.sumi.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "success": {
+            "value": "{color.wasabi.400}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "caution": {
+            "value": "{color.tarako.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "warning": {
+            "value": "{color.mikan.500}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "highEmphasisInverse": {
+            "value": "{color.sumi.900}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "highEmphasisInverse": {
+            "value": "{color.sumi.900}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "action": {
+          "default": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "highEmphasisInverse": {
+            "value": "{color.sumi.900}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "pagination": {
+        "icon": {
+          "enabled": {
+            "value": "{color.sora.400}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "disabled": {
+            "value": "{color.sumi.300}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "label": {
+          "enabled": {
+            "value": "{color.sora.400}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "white": {
+            "value": "{color.sio.1000}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.sumi.300}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "selected": {
+            "value": "{color.sora.400}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        },
+        "surface": {
+          "hovered": {
+            "value": "{color.sumi.100}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "selected": {
+            "value": "{color.sora.400}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      }
+    }
+  },
+  "hanzoOriginSemantic": {
+    "color": {
+      "success": {
+        "value": "{color.wasabi.700}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "success-warm": {
+        "value": "{color.wasabi.600}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "info-warm": {
+        "value": "{color.sora.800}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "info": {
+        "value": "{color.sora.400}",
+        "type": "color",
+        "warm": {
+          "value": "{color.umi.700}",
+          "type": "color"
+        },
+        "failedToResolve": true
+      },
+      "warn": {
+        "value": "{color.mikan.500}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "warn-warm": {
+        "value": "{color.mikan.200}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "star": {
+        "value": "{color.mikan.300}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "ingredient": {
+        "value": "{color.lime.200}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "merchandise": {
+        "value": "{color.umi.500}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "menu": {
+        "value": "{color.mikan.800}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "recipe": {
+        "value": "{color.nasu.300}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "submenu": {
+        "value": "{color.tarako.600}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "expendable": {
+        "value": "{color.sirasu.600}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "supplier": {
+        "value": "{color.wasabi.700}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "text-info": {
+        "value": "{color.wasabi.700}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "text-user-input": {
+        "value": "{color.sora.800}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "menu-name-mapping": {
+        "value": "{color.sora.100}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "7CB1F7": {
+        "value": "{color.sora.300}",
+        "type": "color",
+        "description": "[固定メニュー][備品]タグのカラー",
+        "failedToResolve": true
+      },
+      "menubtn-color": {
+        "value": "{color.sumi.900}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "e0e0e0": {
+        "value": "{color.sumi.200}",
+        "type": "color",
+        "description": "[削除済み]",
+        "failedToResolve": true
+      },
+      "box-background": {
+        "value": "{color.sio.1000}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "danger": {
+        "value": "{color.tarako.800}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "danger-warm": {
+        "value": "{color.mikan.800}",
+        "type": "color",
+        "failedToResolve": true
+      }
+    }
+  },
+  "lineHight": {
+    "none": {
+      "value": "{lineHight.xs}",
+      "type": "lineHeights",
+      "description": "ラベルテキスト",
+      "failedToResolve": true
+    },
+    "tight": {
+      "value": "{lineHight.sm}",
+      "type": "lineHeights",
+      "description": "heading",
+      "failedToResolve": true
+    },
+    "normal": {
+      "value": "{lineHight.md}",
+      "type": "lineHeights",
+      "description": "段落テキスト、paragraph",
+      "failedToResolve": true
+    },
+    "relaxed": {
+      "value": "{lineHight.lg}",
+      "type": "lineHeights",
+      "failedToResolve": true
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "value": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+      "type": "fontWeights",
+      "failedToResolve": true
+    },
+    "bold": {
+      "value": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+      "type": "fontWeights",
+      "failedToResolve": true
+    }
+  },
+  "borderRadius": {
+    "sm": {
+      "value": "{borderRadius.standard}",
+      "type": "borderRadius",
+      "description": "短辺〜39px",
+      "failedToResolve": true
+    },
+    "md": {
+      "value": "{borderRadius.standard} *2",
+      "type": "borderRadius",
+      "description": "短辺40〜56px",
+      "failedToResolve": true
+    },
+    "lg": {
+      "value": "{borderRadius.standard} *3",
+      "type": "borderRadius",
+      "description": "短辺57px〜, セクションBG(カード)",
+      "failedToResolve": true
+    },
+    "xl": {
+      "value": "{borderRadius.standard} *6",
+      "type": "borderRadius",
+      "failedToResolve": true
+    },
+    "full": {
+      "value": "{borderRadius.9999}",
+      "type": "borderRadius",
+      "failedToResolve": true
+    },
+    "none": {
+      "value": "{borderRadius.0}",
+      "type": "borderRadius",
+      "failedToResolve": true
+    }
+  },
+  "boxShadow": {
+    "card": {
+      "value": "{boxShadow.elevation1}",
+      "type": "boxShadow",
+      "failedToResolve": true
+    },
+    "snackbar": {
+      "value": "{boxShadow.elevation6}",
+      "type": "boxShadow",
+      "failedToResolve": true
+    },
+    "menu": {
+      "value": "{boxShadow.elevation8}",
+      "type": "boxShadow",
+      "failedToResolve": true
+    },
+    "formFooter": {
+      "value": "{boxShadow.elevation4}",
+      "type": "boxShadow",
+      "failedToResolve": true
+    },
+    "dialog": {
+      "value": "{boxShadow.elevation24}",
+      "type": "boxShadow",
+      "failedToResolve": true
+    },
+    "list": {
+      "value": "{boxShadow.elevation24}",
+      "type": "boxShadow",
+      "failedToResolve": true
+    }
+  },
+  "typograpy": {
+    "headline": {
+      "pc&tab": {
+        "xxl": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.sm}",
+            "fontSize": "{fontSize.32}"
+          },
+          "type": "typography",
+          "description": "画面タイトル など",
+          "failedToResolve": true
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.sm}",
+            "fontSize": "{fontSize.28}"
+          },
+          "type": "typography",
+          "description": "セクションタイトル など",
+          "failedToResolve": true
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.24}"
+          },
+          "type": "typography",
+          "description": "ブロックタイトル など",
+          "failedToResolve": true
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.20}"
+          },
+          "type": "typography",
+          "description": "サブブロックタイトル など",
+          "failedToResolve": true
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.20}"
+          },
+          "type": "typography",
+          "description": "サブサブブロックタイトル など",
+          "failedToResolve": true
+        }
+      },
+      "sp": {
+        "xxl": {
+          "value": {
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "fontFamily": "{fontFamily.default}",
+            "lineHeight": "{lineHight.sm}",
+            "fontSize": "{fontSize.24}"
+          },
+          "type": "typography",
+          "description": "画面タイトル など",
+          "failedToResolve": true
+        },
+        "xl": {
+          "value": {
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "fontFamily": "{fontFamily.default}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.22}"
+          },
+          "type": "typography",
+          "description": "セクションタイトル など",
+          "failedToResolve": true
+        },
+        "lg": {
+          "value": {
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "fontFamily": "{fontFamily.default}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.20}"
+          },
+          "type": "typography",
+          "description": "ブロックタイトル など",
+          "failedToResolve": true
+        },
+        "md": {
+          "value": {
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "fontFamily": "{fontFamily.default}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.18}"
+          },
+          "type": "typography",
+          "description": "サブブロックタイトル など",
+          "failedToResolve": true
+        },
+        "sm": {
+          "value": {
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "fontFamily": "{fontFamily.default}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.18}"
+          },
+          "type": "typography",
+          "description": "サブサブブロックタイトル など",
+          "failedToResolve": true
+        }
+      }
+    },
+    "label": {
+      "md": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+          "lineHeight": "{lineHight.md}",
+          "fontSize": "{fontSize.16}"
+        },
+        "type": "typography",
+        "description": "デフォルトのサイズ / 食材名 など",
+        "failedToResolve": true
+      },
+      "sm": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+          "lineHeight": "{lineHight.md}",
+          "fontSize": "{fontSize.14}"
+        },
+        "type": "typography",
+        "description": "テーブルの項目名 など",
+        "failedToResolve": true
+      },
+      "xs": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+          "lineHeight": "{lineHight.md}",
+          "fontSize": "{fontSize.12}"
+        },
+        "type": "typography",
+        "description": "表示領域に限りがある場合 など",
+        "failedToResolve": true
+      }
+    },
+    "body": {
+      "md": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+          "lineHeight": "{lineHight.md}",
+          "fontSize": "{fontSize.16}"
+        },
+        "type": "typography",
+        "description": "デフォルトのサイズ",
+        "failedToResolve": true
+      },
+      "sm": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+          "lineHeight": "{lineHight.md}",
+          "fontSize": "{fontSize.14}"
+        },
+        "type": "typography",
+        "description": "表示領域に限りがある場合 など",
+        "failedToResolve": true
+      }
+    },
+    "caption": {
+      "md": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+          "lineHeight": "{lineHight.md}",
+          "fontSize": "{fontSize.12}"
+        },
+        "type": "typography",
+        "description": "デフォルトのサイズ / validation text など",
+        "failedToResolve": true
+      },
+      "sm": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+          "lineHeight": "{lineHight.md}",
+          "fontSize": "{fontSize.10}"
+        },
+        "type": "typography",
+        "description": "表示領域に限りがある場合 など",
+        "failedToResolve": true
+      }
+    },
+    "component": {
+      "buttonLabel": {
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.16}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        },
+        "xs": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.12}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        }
+      },
+      "tagLabel": {
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.12}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.11}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        },
+        "xs": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.10}"
+          },
+          "type": "typography",
+          "description": "※積極的には使いたくない",
+          "failedToResolve": true
+        },
+        "xxs": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "fontSize": "{fontSize.8}"
+          },
+          "type": "typography",
+          "description": "※積極的には使いたくない",
+          "failedToResolve": true
+        }
+      },
+      "chipsLabel": {
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.12}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        }
+      },
+      "checkboxLabel": {
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "lineHeight": "{lineHight.sm}",
+            "fontSize": "{fontSize.16}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        }
+      },
+      "radioButtonLabel": {
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "lineHeight": "{lineHight.sm}",
+            "fontSize": "{fontSize.16}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        }
+      },
+      "textLink": {
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.600}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "lineHeight": "{lineHight.xs}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        }
+      },
+      "comboboxLabel": {
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.18}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.Hiragino Kaku Gothic Pro.300}",
+            "lineHeight": "{lineHight.md}",
+            "fontSize": "{fontSize.16}"
+          },
+          "type": "typography",
+          "failedToResolve": true
+        }
+      }
+    }
+  }
+}

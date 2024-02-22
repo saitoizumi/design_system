@@ -1,60 +1,49 @@
 const StyleDictionary = require("style-dictionary");
-const { customHeader } = require("./headers/scss-header.js");
-const { transformBoxShadow } = require("./transforms/box-shadow.js");
-const { transformTypography } = require("./transforms/typography.js");
-const { transformFontWeight } = require("./transforms/font-weight.js");
-
-const isBoxShadow = (category) => category === "boxShadow";
-const isTypography = (category) => category === "typograpy";
-const isFontWeght = (category) => category === "fontWeight";
-
-StyleDictionary.registerTransform({
-  name: "time/seconds",
-  type: "value",
-  matcher: (token) => {
-    return (
-      isBoxShadow(token.attributes.category) ||
-      isTypography(token.attributes.category) ||
-      isFontWeght(token.attributes.category)
-    );
-  },
-  transformer: (token) => {
-    if (isBoxShadow(token.attributes.category)) return transformBoxShadow(token);
-    if (isTypography(token.attributes.category)) return transformTypography(token);
-    if (isFontWeght(token.attributes.category)) return transformFontWeight(token.value);
-  },
-});
+const { customHeader } = require("./headers/scss-header");
+require("./transforms/transforms.js");
+require("./transforms/transform-groups.js");
+require("./filters/filters.js");
+require("./formats/tokens.js");
 
 StyleDictionary.registerFileHeader({
   name: "customHeader",
   fileHeader: customHeader,
 });
 
-module.exports = {
-  source: ["style-dictionary/tokens/converted_tokens.json"],
-  platforms: {
-    scss: {
-      transformGroup: "scss",
-      buildPath: "style-dictionary/dist/",
-      files: [
-        {
-          destination: "design-tokens.scss",
-          format: "scss/variables",
-          options: {
-            fileHeader: "customHeader",
+const getStyleDictionaryConfig = () => {
+  return {
+    source: [`style-dictionary/tokens/converted_semantic_tokens.json`],
+    platforms: {
+      scss: {
+        transformGroup: "custom/scss",
+        buildPath: "style-dictionary/dist/",
+        files: [
+          {
+            destination: `design-tokens-semantic.scss`,
+            format: "custom/format/scss",
+            options: {
+              fileHeader: customHeader,
+              outputReferences: true,
+            },
+            mapName: "my-tokens",
           },
-        },
-      ],
+        ],
+      },
+      js: {
+        transformGroup: "js",
+        buildPath: "style-dictionary/dist/",
+        files: [
+          {
+            destination: `design-tokens-semantic.js`,
+            format: "custom/format/js",
+            options: {
+              outputReferences: true,
+            },
+          },
+        ],
+      },
     },
-    js: {
-      transformGroup: "js",
-      buildPath: "style-dictionary/dist/",
-      files: [
-        {
-          destination: "design-tokens.js",
-          format: "javascript/es6",
-        },
-      ],
-    },
-  },
+  };
 };
+
+StyleDictionary.extend(getStyleDictionaryConfig()).buildAllPlatforms();
