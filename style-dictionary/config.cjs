@@ -2,7 +2,6 @@ const StyleDictionary = require("style-dictionary");
 const { customHeader } = require("./headers/scss-header");
 require("./transforms/transforms.js");
 require("./transforms/transform-groups.js");
-require("./filters/filters.js");
 require("./formats/tokens.js");
 
 StyleDictionary.registerFileHeader({
