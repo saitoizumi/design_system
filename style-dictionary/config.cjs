@@ -22,9 +22,7 @@ const getStyleDictionaryConfig = () => {
             format: "custom/format/scss",
             options: {
               fileHeader: customHeader,
-              outputReferences: true,
             },
-            mapName: "my-tokens",
           },
         ],
       },
@@ -35,9 +33,6 @@ const getStyleDictionaryConfig = () => {
           {
             destination: `design-tokens-semantic.js`,
             format: "custom/format/js",
-            options: {
-              outputReferences: true,
-            },
           },
         ],
       },

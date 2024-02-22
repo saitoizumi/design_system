@@ -1,4 +1,5 @@
 const StyleDictionary = require("style-dictionary");
+const { fileHeader } = StyleDictionary.formatHelpers;
 const fs = require("fs");
 const primitiveTokens = JSON.parse(fs.readFileSync("style-dictionary/tokens/tokens.json"))[
   "primitive"
@@ -97,22 +98,21 @@ const customJsFormatter = (dictionary) => {
 
 StyleDictionary.registerFormat({
   name: "custom/format/scss",
-  formatter: ({ dictionary }) => {
-    return customScssFormatter(dictionary);
+  formatter: ({ dictionary, file }) => {
+    return fileHeader({ file }) + customScssFormatter(dictionary);
   },
 });
 
 StyleDictionary.registerFormat({
   name: "custom/format/js",
-  formatter: ({ dictionary }) => {
-    return customJsFormatter(dictionary);
+  formatter: ({ dictionary, file }) => {
+    return fileHeader({ file }) + customJsFormatter(dictionary);
   },
 });
 
 StyleDictionary.registerParser({
   pattern: /\.json$/,
-  parse: ({ contents, filePath }) => {
-    if (filePath.includes("primitive")) return;
+  parse: ({ contents }) => {
     return semanticTokens(JSON.parse(contents));
   },
 });

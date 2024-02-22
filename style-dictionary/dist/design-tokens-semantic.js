@@ -1,3 +1,8 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 22 Feb 2024 10:36:46 GMT
+ */
+
 export const ColorCommonBrandHanzored = "#ff5a5f";
 export const ColorCommonBrandHanzogreen = "#008c85";
 export const ColorCommonTextHighemphasis = "#414141";
