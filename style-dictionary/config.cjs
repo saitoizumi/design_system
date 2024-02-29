@@ -11,14 +11,14 @@ StyleDictionary.registerFileHeader({
 
 const getStyleDictionaryConfig = () => {
   return {
-    source: [`style-dictionary/tokens/converted_semantic_tokens.json`],
+    source: ["style-dictionary/tokens/converted_semantic_tokens.json"],
     platforms: {
       scss: {
         transformGroup: "custom/scss",
         buildPath: "style-dictionary/dist/",
         files: [
           {
-            destination: `design-tokens-semantic.scss`,
+            destination: "design-tokens-semantic.scss",
             format: "custom/format/scss",
             options: {
               fileHeader: customHeader,
@@ -27,11 +27,11 @@ const getStyleDictionaryConfig = () => {
         ],
       },
       js: {
-        transformGroup: "js",
+        transformGroup: "custom/js",
         buildPath: "style-dictionary/dist/",
         files: [
           {
-            destination: `design-tokens-semantic.js`,
+            destination: "design-tokens-semantic.js",
             format: "custom/format/js",
           },
         ],

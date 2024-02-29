@@ -10,3 +10,11 @@ StyleDictionary.registerTransformGroup({
     "custom/name/fontWeight",
   ],
 });
+
+StyleDictionary.registerTransformGroup({
+  name: "custom/js",
+  transforms: [
+    "attribute/cti",
+    "custom/name/fontWeight",
+  ],
+});

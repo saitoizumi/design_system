@@ -48,7 +48,7 @@ const semanticTokens = (obj) =>
 const convertPrimitiveValue = (value) => {
   if (!value.includes(".")) return value;
 
-  if (value.includes("borderRadius")) {
+  if (value.includes("*")) {
     const path = value.split(" ")[0].replace("{", "").replace("}", "").split(".");
     const baseValue = Number(path.reduce((obj, key) => obj[key], primitiveTokens).value);
     const multipliedByValue = value
