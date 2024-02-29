@@ -17,12 +17,11 @@ const toKebabCase = (propertyName) => {
 
 /**
  * パスカルケースに変換する
- *
- * TODO: &、-の後を大文字にする
  */
 const toPascalCase = (text) => {
-  const connectedText = text.replaceAll(/[ \-&]/g, "");
-  return connectedText.charAt(0).toUpperCase() + connectedText.substring(1).toLowerCase();
+  const insertHyphenBeforeUpperCase = text.replace(/[A-Z]/g, (match) => '-' + match);
+  const splitedText = insertHyphenBeforeUpperCase.split(/[ \-&]/g);
+  return splitedText.map((v) => v.charAt(0).toUpperCase() + v.substring(1).toLowerCase()).join("");
 };
 
 /**
@@ -51,18 +50,15 @@ const convertPrimitiveValue = (value) => {
 
   if (value.includes("borderRadius")) {
     const path = value.split(" ")[0].replace("{", "").replace("}", "").split(".");
-    return `${
-      Number(path.reduce((obj, key) => obj[key], primitiveTokens).value) *
-      Number(
-        value
-          .split(" ")
-          .map((v, i) => {
-            if (i === 0) return;
-            return v.replace("*", "");
-          })
-          .join("")
-      )
-    }`;
+    const baseValue = Number(path.reduce((obj, key) => obj[key], primitiveTokens).value);
+    const multipliedByValue = value
+      .split(" ")
+      .map((v, i) => {
+        if (i === 0) return;
+        return v.replace("*", "");
+      })
+      .join("");
+    return `${Number(baseValue) * multipliedByValue}`;
   }
   const path = value.replace("{", "").replace("}", "").split(".");
   return path.reduce((obj, key) => obj[key], primitiveTokens).value;
