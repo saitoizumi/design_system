@@ -28,3 +28,11 @@ jobs:
 
     - name: Build style dictionary
       run: yarn build-style-dictionary
+
+    - name: Commit and Push Files
+      uses: EndBug/add-and-commit@v7
+      with:
+        message: 'Update generated style files'
+        add: 'src/stylesheets/**/*'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
