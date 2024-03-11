@@ -1,4 +1,4 @@
-const customHeader = (defaultMessage) => {
+const customHeaderForScss = (defaultMessage) => {
   return [
     ...defaultMessage,
     ,
@@ -12,4 +12,4 @@ const customHeader = (defaultMessage) => {
   ];
 };
 
-module.exports = { customHeader };
+module.exports = { customHeaderForScss };

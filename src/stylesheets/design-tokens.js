@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 29 Feb 2024 15:09:58 GMT
+ * Generated on Mon, 11 Mar 2024 01:19:42 GMT
  */
 
 export const ColorCommonBrandHanzoRed = "#ff5a5f";
@@ -542,7 +542,7 @@ export const HanzoOriginSemanticColorSupplier = "#007c74";
 export const HanzoOriginSemanticColorTextInfo = "#007c74";
 export const HanzoOriginSemanticColorTextUserInput = "#2160c6";
 export const HanzoOriginSemanticColorMenuNameMapping = "#bbddfe";
-export const HanzoOriginSemanticColor7CB1F7 = "#62b2fc";
+export const HanzoOriginSemanticColor7Cb1F7 = "#62b2fc";
 export const HanzoOriginSemanticColorMenubtnColor = "#1A1A1A";
 export const HanzoOriginSemanticColorE0e0e0 = "#E8E8E8";
 export const HanzoOriginSemanticColorBoxBackground = "#ffffff";

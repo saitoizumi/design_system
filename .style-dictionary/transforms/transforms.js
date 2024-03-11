@@ -13,7 +13,7 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerTransform({
   name: "custom/name/typography",
   type: "value",
-  matcher: (token) => token.attributes.category === "typograpy",
+  matcher: (token) => token.attributes.category === "typography",
   transformer: (token) => transformTypography(token),
 });
 

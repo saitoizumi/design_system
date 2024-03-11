@@ -5,6 +5,7 @@ StyleDictionary.registerTransformGroup({
   name: "custom/scss",
   transforms: [
     "attribute/cti",
+    "name/cti/kebab",
     "custom/name/boxShadow",
     "custom/name/typography",
     "custom/name/fontWeight",
@@ -13,8 +14,5 @@ StyleDictionary.registerTransformGroup({
 
 StyleDictionary.registerTransformGroup({
   name: "custom/js",
-  transforms: [
-    "attribute/cti",
-    "custom/name/fontWeight",
-  ],
+  transforms: ["attribute/cti", "name/cti/pascal", "custom/name/fontWeight"],
 });
