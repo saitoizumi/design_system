@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 11 Mar 2024 01:19:42 GMT
+// Generated on Mon, 11 Mar 2024 02:25:07 GMT
 
 // -------------------
 // $typography
@@ -554,7 +554,7 @@ $hanzo-origin-semantic-color-menubtn-color: #1A1A1A;
 $hanzo-origin-semantic-color-e0e0e0: #E8E8E8;
 $hanzo-origin-semantic-color-box-background: #ffffff;
 $hanzo-origin-semantic-color-danger: #d82f38;
-$hanzo-origin-semantic-color-danger-warm: #e96b00;
+$hanzo-origin-semantic-color-danger-warm: #fddfb2;
 $line-hight-none: 100%;
 $line-hight-tight: 125%;
 $line-hight-normal: 150%;
@@ -573,36 +573,36 @@ $box-shadow-menu: 0px 5px 5px -3px #00000033, 0px 8px 10px 1px #00000024, 0px 3p
 $box-shadow-form-footer: 0px 2px 4px -1px #00000033, 0px 4px 5px 0px #00000024, 0px 1px 10px 0px #0000001F;
 $box-shadow-dialog: 0px 11px 15px -7px #00000033, 0px 24px 38px 3px #00000024, 0px 9px 46px 8px #0000001F;
 $box-shadow-list: 0px 11px 15px -7px #00000033, 0px 24px 38px 3px #00000024, 0px 9px 46px 8px #0000001F;
-$typograpy-headline-pc-tab-xxl: [object Object];
-$typograpy-headline-pc-tab-xl: [object Object];
-$typograpy-headline-pc-tab-lg: [object Object];
-$typograpy-headline-pc-tab-md: [object Object];
-$typograpy-headline-pc-tab-sm: [object Object];
-$typograpy-headline-sp-xxl: [object Object];
-$typograpy-headline-sp-xl: [object Object];
-$typograpy-headline-sp-lg: [object Object];
-$typograpy-headline-sp-md: [object Object];
-$typograpy-headline-sp-sm: [object Object];
-$typograpy-label-md: [object Object];
-$typograpy-label-sm: [object Object];
-$typograpy-label-xs: [object Object];
-$typograpy-body-md: [object Object];
-$typograpy-body-sm: [object Object];
-$typograpy-caption-md: [object Object];
-$typograpy-caption-sm: [object Object];
-$typograpy-component-button-label-lg: [object Object];
-$typograpy-component-button-label-md: [object Object];
-$typograpy-component-button-label-sm: [object Object];
-$typograpy-component-button-label-xs: [object Object];
-$typograpy-component-tag-label-lg: [object Object];
-$typograpy-component-tag-label-md: [object Object];
-$typograpy-component-tag-label-sm: [object Object];
-$typograpy-component-tag-label-xs: [object Object];
-$typograpy-component-tag-label-xxs: [object Object];
-$typograpy-component-chips-label-md: [object Object];
-$typograpy-component-checkbox-label-md: [object Object];
-$typograpy-component-radio-button-label-md: [object Object];
-$typograpy-component-text-link-md: [object Object];
-$typograpy-component-text-link-sm: [object Object];
-$typograpy-component-combobox-label-lg: [object Object];
-$typograpy-component-combobox-label-md: [object Object];
+$typography-headline-pc-tab-xxl: (font-size: 32px, line-height: 125%, font-weight: 600);
+$typography-headline-pc-tab-xl: (font-size: 28px, line-height: 125%, font-weight: 600);
+$typography-headline-pc-tab-lg: (font-size: 24px, line-height: 150%, font-weight: 600);
+$typography-headline-pc-tab-md: (font-size: 20px, line-height: 150%, font-weight: 600);
+$typography-headline-pc-tab-sm: (font-size: 20px, line-height: 150%, font-weight: 300);
+$typography-headline-sp-xxl: (font-size: 24px, line-height: 125%, font-weight: 600);
+$typography-headline-sp-xl: (font-size: 22px, line-height: 150%, font-weight: 600);
+$typography-headline-sp-lg: (font-size: 20px, line-height: 150%, font-weight: 600);
+$typography-headline-sp-md: (font-size: 18px, line-height: 150%, font-weight: 600);
+$typography-headline-sp-sm: (font-size: 18px, line-height: 150%, font-weight: 300);
+$typography-label-md: (font-size: 16px, line-height: 150%, font-weight: 600);
+$typography-label-sm: (font-size: 14px, line-height: 150%, font-weight: 600);
+$typography-label-xs: (font-size: 12px, line-height: 150%, font-weight: 300);
+$typography-body-md: (font-size: 16px, line-height: 150%, font-weight: 300);
+$typography-body-sm: (font-size: 14px, line-height: 150%, font-weight: 300);
+$typography-caption-md: (font-size: 12px, line-height: 150%, font-weight: 300);
+$typography-caption-sm: (font-size: 10px, line-height: 150%, font-weight: 300);
+$typography-component-button-label-lg: (font-size: 16px, line-height: 100%, font-weight: 600);
+$typography-component-button-label-md: (font-size: 14px, line-height: 100%, font-weight: 600);
+$typography-component-button-label-sm: (font-size: 14px, line-height: 100%, font-weight: 300);
+$typography-component-button-label-xs: (font-size: 12px, line-height: 100%, font-weight: 600);
+$typography-component-tag-label-lg: (font-size: 14px, line-height: 100%, font-weight: 600);
+$typography-component-tag-label-md: (font-size: 12px, line-height: 100%, font-weight: 600);
+$typography-component-tag-label-sm: (font-size: 11px, line-height: 100%, font-weight: 600);
+$typography-component-tag-label-xs: (font-size: 10px, line-height: 100%, font-weight: 600);
+$typography-component-tag-label-xxs: (font-size: 8px, line-height: normal, font-weight: 600);
+$typography-component-chips-label-md: (font-size: 12px, line-height: 100%, font-weight: 300);
+$typography-component-checkbox-label-md: (font-size: 16px, line-height: 125%, font-weight: 300);
+$typography-component-radio-button-label-md: (font-size: 16px, line-height: 125%, font-weight: 300);
+$typography-component-text-link-md: (font-size: 14px, line-height: 100%, font-weight: 600);
+$typography-component-text-link-sm: (font-size: 14px, line-height: 100%, font-weight: 300);
+$typography-component-combobox-label-lg: (font-size: 18px, line-height: 150%, font-weight: 300);
+$typography-component-combobox-label-md: (font-size: 16px, line-height: 150%, font-weight: 300);
